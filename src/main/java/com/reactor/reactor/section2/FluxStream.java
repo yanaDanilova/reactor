@@ -19,6 +19,9 @@ public class FluxStream {
 
         fromStream.subscribe(Util.onNext());
         fromStream.subscribe(Util.onNext());
+        
+        System.out.println("Hey");
+        
 
     }
 }
